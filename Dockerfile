@@ -3,8 +3,8 @@ FROM alpine:3.6
 ENV TERM=xterm
 
 ENV PROFTPD_VERSION 1.3.6
-ENV UID             5001
-ENV GID             82
+ENV UID             667
+ENV GID             502
 
 ENV PROFTPD_DEPS \
   g++ \
